@@ -16,7 +16,7 @@
 @media screen and (max-width: 920px){
     .card{
         margin-top: 8rem;
-        height: 70vh;
+        height: 80vh;
         display: block;
     }
 
@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 520px){
     .card{
-        height: 80vh;
+        height: 70vh;
         margin-top: 18%;
     }
 
