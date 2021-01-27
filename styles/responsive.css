@@ -1,0 +1,103 @@
+@media screen and (max-width: 1040px){
+    .bg{
+        top: -65%;
+        left: -133%;
+    }
+    .woman{
+        top: 8%;
+        left: -22%;
+    }
+    .box{
+        top: 40%;
+        left: -20%;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .card{
+        margin-top: 8rem;
+        height: 70vh;
+        display: block;
+    }
+
+    /* graphics */
+    .graphics{
+        height: auto;
+    }
+
+    .overflow-hidden{
+        overflow: visible;
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bg{
+        display: none;
+    }
+
+    .bg-mobile{
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .woman{
+        display: none;
+    }
+
+    .woman-mobile{
+        display: block;
+        width: 40%;
+        margin: -34% 0 0 28%;
+    }
+    
+    .box{
+        display: none;
+    }
+
+    /* text */
+    .text{
+        margin: 4.5rem 0 0 0;
+        height: 60%;
+    }
+
+    h1{
+        text-align: center;
+        margin: 1rem 0 0.8rem 0;
+        padding: 0;
+    }
+    
+    .item{
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem 0;
+    }
+
+    .question{
+        padding: 1rem 0 rem 0;
+    }
+}
+
+
+@media screen and (max-width: 520px){
+    .card{
+        height: 80vh;
+        margin-top: 18%;
+    }
+
+    .bg-mobile{
+        width: 60%;
+    }
+
+    .woman-mobile{
+        width: 60%;
+        margin: -50% 0 0 16%;
+    }
+
+    .text{
+        height: 70%;
+    }
+}
