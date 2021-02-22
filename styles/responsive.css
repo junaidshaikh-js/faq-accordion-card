@@ -84,12 +84,7 @@
 
 @media screen and (max-width: 520px){
     .card{
-<<<<<<< HEAD
-        margin-top: 18%;
-=======
-        height: 66vh;
         margin-top: 12%;
->>>>>>> ab45e8b496dca7e5cb69544689f54bf26b02df17
     }
 
     .bg-mobile{
