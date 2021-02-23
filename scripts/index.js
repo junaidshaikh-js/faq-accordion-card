@@ -1,5 +1,5 @@
-let question = document.getElementsByClassName('question');
-let answer = document.getElementsByClassName('answer');
+let question = document.querySelectorAll('.question');
+let answer = document.querySelectorAll('.answer');
 
 
 for (let index = 0; index < question.length; index++) {
